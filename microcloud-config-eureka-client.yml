@@ -14,8 +14,8 @@ eureka:
     register-with-eureka: false
     service-url:
         defaultZone: http://admin:enjoy@localhost:7001/eureka
-  instance: # eureak实例定义
-    hostname: localhost # 定义 Eureka 实例所在的主机名称
+  instance: # eureak实例定义定义Eureka实例所在的主机名称
+    hostname: localhost 
 spring:
   profiles: dev
   security:
@@ -36,8 +36,8 @@ eureka:
     register-with-eureka: false
     service-url:
         defaultZone: http://admin:enjoy@localhost:7002/eureka
-  instance: # eureak实例定义
-    hostname: localhost # 定义 Eureka 实例所在的主机名称
+  instance: # eureak实例定义实例所在的主机名称
+    hostname: localhost 
 spring:
   profiles: beta
   security:
